@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Nunito|Rubik');
 
 @tailwind base;
 @tailwind components;
@@ -8,13 +8,18 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-
+  font-family: 'Rubik';
 }
 
 html,
 body {
+  max-width: 100vw;
   overflow-x: hidden;
-  font-family: monospace;
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  --tw-gradient-from: #a855f7;
+  --tw-gradient-to: rgb(168 85 247 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --tw-gradient-to: #ec4899;
 }
 
 body {
