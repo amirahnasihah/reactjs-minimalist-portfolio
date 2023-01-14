@@ -14,14 +14,16 @@ import nextjs from "../public/icon/nextjs-fill-svgrepo-com.png";
 import tailwind from "../public/icon/tailwind-svgrepo-com.png";
 import materialui from "../public/icon/material-ui-svgrepo-com.png";
 import ButtonHome from "../components/ButtonHome";
+import Navbar from "../components/Navbar";
 
 const Project = () => {
   const [projectList, setProjectList] = useState([]);
 
   return (
     <div className="w-full max-w-lg z-10 relative mx-auto p-4 md:p-0 lg:my-8 ">
+      <Navbar />
       <div>
-        <h1 className=" text-3xl font-bold py-2">🚀 Project</h1>
+        <h1 className=" text-3xl font-bold pb-8">🚀 Project</h1>
 
         {/* TODO */}
         <div className="w-full max-w-lg z-10 relative mx-auto p-4 md:p-0 lg:my-8 ">

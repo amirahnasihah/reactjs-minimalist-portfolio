@@ -7,12 +7,14 @@ import blog3 from "../public/thumbnail/blog3.png";
 import blog4 from "../public/thumbnail/conditional-rendering.png";
 import badge from "../public/icon/badge-svgrepo-com.png";
 import ButtonHome from "../components/ButtonHome";
+import Navbar from "../components/Navbar";
 
 const BlogPost = () => {
   return (
     <div className="w-full max-w-lg z-10 relative mx-auto p-4 md:p-0 lg:my-8 ">
+      <Navbar />
       <div>
-        <h1 className=" text-3xl font-bold py-2">📬 Latest Posts</h1>
+        <h1 className=" text-3xl font-bold pb-8">📬 Latest Posts</h1>
 
         {/* TODO */}
         <div className="w-full max-w-lg z-10 relative mx-auto p-4 md:p-0 lg:my-8 ">
