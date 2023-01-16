@@ -1,9 +1,10 @@
 import Head from "next/head";
 import { useState } from "react";
-import Footer from "../components/Footer";
+import BottomNavbar from "../components/BottomNavbar";
 import Layout from "../components/Layout";
 import Heading from "../components/Heading";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -27,6 +28,7 @@ export default function Home() {
         </section>
         <section>
           <Layout />
+          <BottomNavbar />
         </section>
         <Footer />
       </main>
