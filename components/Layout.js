@@ -18,8 +18,8 @@ const Layout = () => {
       {/* STACK */}
       <div className=" w-full max-w-lg z-10 relative mx-auto p-4 md:p-0 lg:my-8 md:my-8 ">
         <h3 className="text-3xl py-2 font-bold ">🪄 Stack</h3>
-        <div className="py-2 items-center justify-between  ">
-          <div className="w-full flex flex-wrap px-2 items-center gap-3 my-4  ">
+        <div className="py-2 items-center justify-between ">
+          <div className="w-full flex flex-wrap px-2 items-center  gap-3 my-4  ">
             <Image src={markdown} className="mr-3 w-8 h-8 " alt="logo" />
             <Image src={html} className="mr-3 w-8 h-8 " alt="logo" />
             <Image src={css} className="mr-3 w-8 h-8 " alt="logo" />

@@ -1,11 +1,10 @@
 import Link from "next/link";
-import Image from "next/image";
 import React from "react";
 import { SiHashnode } from "react-icons/si";
 import { FaLinkedinIn, FaTwitter, FaGithub } from "react-icons/fa";
-import Footer from "../components/Footer";
 import ButtonHome from "../components/ButtonHome";
 import Navbar from "../components/Navbar";
+import BottomNavbar from "../components/BottomNavbar";
 
 const Contact = () => {
   return (
@@ -75,7 +74,7 @@ const Contact = () => {
 
       {/* BACK TO HOME */}
       <ButtonHome />
-      <Footer />
+      <BottomNavbar />
     </div>
   );
 };

@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import Footer from "../components/Footer";
 import blog1 from "../public/thumbnail/blog1.png";
 import blog2 from "../public/thumbnail/blog2.png";
 import blog3 from "../public/thumbnail/blog3.png";
@@ -8,13 +7,14 @@ import blog4 from "../public/thumbnail/conditional-rendering.png";
 import badge from "../public/icon/badge-svgrepo-com.png";
 import ButtonHome from "../components/ButtonHome";
 import Navbar from "../components/Navbar";
+import BottomNavbar from "../components/BottomNavbar";
 
 const BlogPost = () => {
   return (
     <div className="w-full max-w-lg z-10 relative mx-auto p-4 md:p-0 lg:my-8 ">
       <Navbar />
       <div>
-        <h1 className=" text-3xl font-bold pb-8">📬 Latest Posts</h1>
+        <h1 className=" text-3xl font-bold pb-8">📬 My Posts</h1>
 
         {/* TODO */}
         <div className="w-full max-w-lg z-10 relative mx-auto p-4 md:p-0 lg:my-8 ">
@@ -68,7 +68,7 @@ const BlogPost = () => {
                     alt="badge"
                     className="w-[20px] h-[20px]"
                   ></Image>
-                  <span> Featured on Hashnode</span>
+                  <span> Featured</span>
                 </div>
 
                 <p className="my-2 font-light">
@@ -165,7 +165,7 @@ const BlogPost = () => {
 
       {/* BACK TO HOME */}
       <ButtonHome />
-      <Footer />
+      <BottomNavbar />
     </div>
   );
 };

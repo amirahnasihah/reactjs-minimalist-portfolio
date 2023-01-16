@@ -21,12 +21,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* MAIN - HOME */}
-      <main className="p-4  px-10 md:px-20 lg:px-40 bg-gradient-to-r from-purple-500 to-pink-500  dark:bg-zinc-600 ">
-        <section>
+      <main className="p-4  px-8 md:px-20 lg:px-40 dark:bg-zinc-600 ">
+        <section className="">
           <Navbar />
           <Heading />
-        </section>
-        <section>
           <Layout />
           <BottomNavbar />
         </section>

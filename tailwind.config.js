@@ -4,6 +4,7 @@ module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/flowbite/**/*.js",
   ],
   theme: {
     extend: {
@@ -25,7 +26,10 @@ module.exports = {
           "95%, 100%": { transform: "translateX(11ch)" },
         },
       },
+      backgroundImage: {
+        "bg-pattern": "url('../public/bgimage.png')",
+      },
     },
   },
-  plugins: [],
+  plugins: [require("flowbite/plugin")],
 };

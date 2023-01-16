@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import React, { useState } from "react";
-import Footer from "../components/Footer";
 import findmynews from "../public/thumbnail/findmynews.png";
 import ninjaslist from "../public/thumbnail/ninjaslist.png";
 import tailwindPortfolio from "../public/thumbnail/tailwind-design-dark.png";
@@ -15,6 +14,7 @@ import tailwind from "../public/icon/tailwind-svgrepo-com.png";
 import materialui from "../public/icon/material-ui-svgrepo-com.png";
 import ButtonHome from "../components/ButtonHome";
 import Navbar from "../components/Navbar";
+import BottomNavbar from "../components/BottomNavbar";
 
 const Project = () => {
   const [projectList, setProjectList] = useState([]);
@@ -22,7 +22,7 @@ const Project = () => {
   return (
     <div className="w-full max-w-lg z-10 relative mx-auto p-4 md:p-0 lg:my-8 ">
       <Navbar />
-      <div>
+      <div className="">
         <h1 className=" text-3xl font-bold pb-8">🚀 Project</h1>
 
         {/* TODO */}
@@ -96,7 +96,7 @@ const Project = () => {
             <figure className="flex flex-col items-center justify-center p-8  border-b  rounded-lg g md:border-r bg-gray-700 ">
               <blockquote className="max-w-2xl mx-auto mb-4 text-gray-300 lg:mb-8 dark:text-gray-400">
                 <h3 className="text-lg font-semibold text-white dark:text-white text-center">
-                  Tailwind Portfolio Design
+                  Portfolio Design
                   <Image
                     className="rounded-t-lg mt-2"
                     src={tailwindPortfolio}
@@ -109,7 +109,7 @@ const Project = () => {
                   <Image className="mb-2 w-5 h-5" src={nextjs} alt="logo" />
                 </div>
                 <p className="my-2 font-light">
-                  A simple use of Tailwind in NextJS with dark mode
+                  A simple use of learning Tailwind in NextJS with dark mode
                 </p>
                 <Link
                   href="https://tailwind-react-portfolio-theta.vercel.app/"
@@ -128,7 +128,7 @@ const Project = () => {
             <figure className="flex flex-col items-center justify-center p-8  border-b  rounded-lg g md:border-r bg-gray-700 ">
               <blockquote className="max-w-2xl mx-auto mb-4 text-gray-300 lg:mb-8 dark:text-gray-400">
                 <h3 className="text-lg font-semibold text-white dark:text-white text-center">
-                  Basic JavaScript Projects
+                  Basic JavaScript
                   <Image
                     className="rounded-t-lg mt-2"
                     src={basicJsProjects}
@@ -141,8 +141,8 @@ const Project = () => {
                   <Image className="mb-2 w-5 h-5" src={html} alt="logo" />
                 </div>
                 <p className="my-2 font-light">
-                  Basics JavaScript by solving 140+ interactive coding
-                  challenges and building fun projects
+                  Solving 140+ interactive coding challenges and building fun
+                  projects
                 </p>
                 <Link
                   href="https://amirahnasihah.github.io/javascript-miniprojects/"
@@ -174,7 +174,7 @@ const Project = () => {
 
       {/* BACK TO HOME */}
       <ButtonHome />
-      <Footer />
+      <BottomNavbar />
     </div>
   );
 };

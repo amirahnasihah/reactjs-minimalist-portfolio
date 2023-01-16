@@ -18,7 +18,8 @@ body {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
   --tw-gradient-from: #a855f7;
   --tw-gradient-to: rgb(168 85 247 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --tw-gradient-stops: var(--tw-gradient-from),
+    var(--tw-gradient-to);
   --tw-gradient-to: #ec4899;
 }
 
