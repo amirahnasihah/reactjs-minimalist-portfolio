@@ -16,16 +16,16 @@ const Layout = () => {
   return (
     <div className="pb-16">
       {/* STACK */}
-      <div className=" w-full max-w-lg z-10 relative mx-auto p-4 md:p-0 lg:my-8 ">
+      <div className=" w-full max-w-lg z-10 relative mx-auto p-4 md:p-0 lg:my-8 md:my-8 ">
         <h3 className="text-3xl py-2 font-bold ">🪄 Stack</h3>
         <div className="py-2 items-center justify-between  ">
-          <div className="w-full flex flex-wrap px-2 items-center gap-5 my-4  ">
+          <div className="w-full flex flex-wrap px-2 items-center gap-3 my-4  ">
             <Image src={markdown} className="mr-3 w-8 h-8 " alt="logo" />
             <Image src={html} className="mr-3 w-8 h-8 " alt="logo" />
             <Image src={css} className="mr-3 w-8 h-8 " alt="logo" />
-            <Image src={javascript} className="mr-3 w-8 h-8 " alt="logo" />
+            <Image src={javascript} className="mr-3 w-7 h-7 " alt="logo" />
             <Image src={reactjs} className="mr-3 w-8 h-8 " alt="logo" />
-            <Image src={nextjs} className="mr-3 w-8 h-8 " alt="logo" />
+            <Image src={nextjs} className="mr-3 w-7 h-7 " alt="logo" />
             <Image src={materialui} className="mr-3 w-8 h-8 " alt="logo" />
             <Image src={tailwind} className="mr-3 w-8 h-8 " alt="logo" />
             <Image src={figma} className="mr-3 w-8 h-8 " alt="logo" />
