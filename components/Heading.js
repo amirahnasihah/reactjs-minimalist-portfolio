@@ -4,7 +4,7 @@ import { SiHashnode, SiTwitter, SiLinkedin, SiGithub } from "react-icons/si";
 
 const Heading = () => {
   return (
-    <div>
+    <header>
       <div className="text-center py-1 text-gray-800 md:text-xl  mx-auto ">
         <h1 className="mb-2 font-mono text-4xl text-cyan-100 md:text-6xl font-bold">
           Amirah Nasihah👋
@@ -52,7 +52,7 @@ const Heading = () => {
           <SiHashnode />
         </Link>
       </div>
-    </div>
+    </header>
   );
 };
 
