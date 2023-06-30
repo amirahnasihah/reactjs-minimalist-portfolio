@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import React, { useState } from "react";
-import findmynews from "../public/thumbnail/findmynews.png";
+import findmynews from "../public/thumbnail/findmynews.jpeg";
 import ninjaslist from "../public/thumbnail/ninjaslist.png";
 import tailwindPortfolio from "../public/thumbnail/tailwind-design-dark.png";
 import basicJsProjects from "../public/thumbnail/basic-js-projects.png";
