@@ -48,7 +48,7 @@ const Project = () => {
                   <code>@talentlabs</code>
                 </p>
                 <Link
-                  href="https://github.com/amirahnasihah/find-news-app"
+                  href="https://github.com/amirahnasihah/find-my-news"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="relative inline-flex items-center justify-center p-0.5 m-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800"
